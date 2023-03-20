@@ -3,11 +3,11 @@
   <title>Fomalhaut🥝</title>
   
   
-  <link href="https://www.fomal.cc/atom.xml" rel="self"/>
+  <link href="https://caoblong.github.io/atom.xml" rel="self"/>
   
-  <link href="https://www.fomal.cc/"/>
+  <link href="https://caoblong.github.io/"/>
   <updated>2023-03-20T14:22:01.921Z</updated>
-  <id>https://www.fomal.cc/</id>
+  <id>https://caoblong.github.io/</id>
   
   <author>
     <name>Fomalhaut🥝</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java使用grpc调用接口获取数据</title>
-    <link href="https://www.fomal.cc/posts/8b83ceda.html"/>
-    <id>https://www.fomal.cc/posts/8b83ceda.html</id>
+    <link href="https://caoblong.github.io/posts/8b83ceda.html"/>
+    <id>https://caoblong.github.io/posts/8b83ceda.html</id>
     <published>2023-03-20T13:50:34.000Z</published>
     <updated>2023-03-20T14:22:01.921Z</updated>
     
@@ -30,21 +30,21 @@
     
     
     
-    <category term="java" scheme="https://www.fomal.cc/categories/java/"/>
+    <category term="java" scheme="https://caoblong.github.io/categories/java/"/>
     
-    <category term="grpc" scheme="https://www.fomal.cc/categories/java/grpc/"/>
+    <category term="grpc" scheme="https://caoblong.github.io/categories/java/grpc/"/>
     
     
-    <category term="java" scheme="https://www.fomal.cc/tags/java/"/>
+    <category term="java" scheme="https://caoblong.github.io/tags/java/"/>
     
-    <category term="grpc" scheme="https://www.fomal.cc/tags/grpc/"/>
+    <category term="grpc" scheme="https://caoblong.github.io/tags/grpc/"/>
     
   </entry>
   
   <entry>
     <title>一文弄懂ThreadLocal</title>
-    <link href="https://www.fomal.cc/posts/2bc43bdb.html"/>
-    <id>https://www.fomal.cc/posts/2bc43bdb.html</id>
+    <link href="https://caoblong.github.io/posts/2bc43bdb.html"/>
+    <id>https://caoblong.github.io/posts/2bc43bdb.html</id>
     <published>2023-03-16T02:07:23.000Z</published>
     <updated>2023-03-20T14:22:12.738Z</updated>
     
@@ -62,17 +62,17 @@ ThreadLocal 使用场景&lt;br&gt;
     
     
     
-    <category term="java" scheme="https://www.fomal.cc/categories/java/"/>
+    <category term="java" scheme="https://caoblong.github.io/categories/java/"/>
     
     
-    <category term="ThreadLocal" scheme="https://www.fomal.cc/tags/ThreadLocal/"/>
+    <category term="ThreadLocal" scheme="https://caoblong.github.io/tags/ThreadLocal/"/>
     
   </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
-    <link href="https://www.fomal.cc/posts/2013454d.html"/>
-    <id>https://www.fomal.cc/posts/2013454d.html</id>
+    <link href="https://caoblong.github.io/posts/2013454d.html"/>
+    <id>https://caoblong.github.io/posts/2013454d.html</id>
     <published>2022-08-09T10:19:03.000Z</published>
     <updated>2022-10-23T14:00:00.000Z</updated>
     
@@ -83,12 +83,12 @@ ThreadLocal 使用场景&lt;br&gt;
     
     
     
-    <category term="演示" scheme="https://www.fomal.cc/categories/%E6%BC%94%E7%A4%BA/"/>
+    <category term="演示" scheme="https://caoblong.github.io/categories/%E6%BC%94%E7%A4%BA/"/>
     
     
-    <category term="Markdown" scheme="https://www.fomal.cc/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://caoblong.github.io/tags/Markdown/"/>
     
-    <category term="外挂标签" scheme="https://www.fomal.cc/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="外挂标签" scheme="https://caoblong.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
