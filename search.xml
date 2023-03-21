@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>微服务概述</title>
+      <link href="/posts/a11e3a0c.html"/>
+      <url>/posts/a11e3a0c.html</url>
+      
+        <content type="html"><![CDATA[<p>微服务概述</p><h2 id="1-什么是微服务？">1.什么是微服务？</h2><p>​    随着各行各业的快速发展，业务规模的不断扩大，不可避免地造成原有架构不能够适应快 速的增长和变化。这时，微服务就进入大家的视野，其实在微服务之前，很多公司己经做过服 化的改造，并且取得了 一定的成果 ，但是对于整体流程的标准化还有 定有差距 那么，什 么是微服务呢？</p><p>​    准确地说，微服务是一种软件架构模式，将大型系统或者复杂的应用分割成多个服务的架 构，服务之间互相协调、互相配合，为用户提供最终价值。每个服务都有独立的生命周期，可 以单独维护和部署，各个业务模块之间是松相合的，比传统的应用程序更有效地利用了计算资 源，应用的扩展更加灵活，能够通过扩展组件来处理功能瓶颈问题。这样一来，开发人员只需 要为额外的组件部 计算资源，而不需要部署一个完整的应用程序 全新法代。<br><img src="https://pic1.zhimg.com/80/v2-86aacad7f7a2b5b2482dd8ac0b440500_720w.webp" alt="code"></p><h2 id="2-微服务架构的发展过程">2.微服务架构的发展过程</h2><p><img src="https://pic3.zhimg.com/80/v2-89a9dcdd67f8ba1b3ab10bcde65e621e_720w.webp" alt="code"></p><h3 id="2-1微服务发展的五个关键时间节点">2.1微服务发展的五个关键时间节点</h3><ul><li>“微服务”这个概念最早是在 2011 年 5 月威尼斯的一个软件架构会议上讨论并提出的，用于描述一些作为通用架构风格的设计原则。</li><li>2012 年 3 月在波兰克拉科夫举行的 33rd Degree Conference 大会上，Thoughtworks 首席咨询师 James Lewis 做了题为《Microservices - Java, the Unix Way》的演讲（<a href="https://link.zhihu.com/?target=http%3A//2012.33degree.org/talk/show/67">http://2012.33degree.org/talk/show/67</a>），这次演讲里 James 讨论了微服务的一些原则和特征，例如单一服务职责、康威定律、自动扩展、DDD 等等。</li><li>“微服务架构”则是由 Fred George 在 2012 年的一次技术大会上所提出（<a href="https://link.zhihu.com/?target=http%3A//oredev.org/oredev2012/2012/sessions/micro-service-architecture.html">http://oredev.org/oredev2012/2012/sessions/micro-service-architecture.html</a>），在大会的演讲中他讲解了如何分拆服务以及如何利用 MQ 来进行服务间的解耦，这就是最早的微服务架构雏形。</li><li>而后由 Martin Fowler 发扬光大并且在 2014 年发表了一篇著名的微服务文章（<a href="https://link.zhihu.com/?target=https%3A//martinfowler.com/articles/microservices.html">https://martinfowler.com/articles/microservices.html</a>），这篇文章深入全面的讲解了什么是微服务架构。随后，微服务架构逐渐成为一种非常流行的架构模式，一大批的技术框架和文章涌现出来，越来越多的公司借鉴和使用微服务架构相关的技术。</li><li>2016 年 4 月，Lightbend 公司的创始人兼 CTO、Akka 的作者 Jonas Bonér，发布了一本小册子《响应式微服务架构》，讨论了基于响应式原理的微服务架构，以及如何将其用于构建可扩展，可应对故障的隔离服务，并与其他服务结合以形成一个紧密的整体。</li></ul><h2 id="3-微服务架构的发展趋势">3.微服务架构的发展趋势</h2><p><img src="https://pic1.zhimg.com/80/v2-5ae41e0b30b06458e31f88d37fb51bb0_720w.webp" alt="code"></p><p>软件架构的发展趋势，简单的说可以分为这几个阶段:</p><ul><li>单体架构：最简单的架构风格，所有的代码在一起，部署到单个进程，例如打包成一个 war 或者 jar，就是通常说的“大泥球”。</li><li>垂直架构：随着业务的发展，系统变得复杂，通过结构化思考，大家发现对于大规模协同开发，有效的控制手段就是对系统进行抽象和分层，例如场景的 MVC 方式。</li><li>面向服务架构（SOA）：面向服务架构从建设企业 IT 生态系统的角度思考架构问题，关注点是各个系统提供可以集成的业务服务能力，而且通常由 ESB 之类的集中化技术实现。</li><li>微服务架构（MSA）：微服务架构风格，将系统设计为一组低耦合的微服务，每个服务独立的部署运行，服务间一般采用 REST 等方式通信，同时采用自动化的测试运维等技术降低服务拆分后的复杂度。</li></ul><h3 id="3-1单体架构和分布式微服务架构的区别">3.1单体架构和分布式微服务架构的区别</h3><table><thead><tr><th style="text-align:center"></th><th style="text-align:center">传统单体架构</th><th style="text-align:center">分布式微服务架构</th></tr></thead><tbody><tr><td style="text-align:center">新功能开发</td><td style="text-align:center">要时间</td><td style="text-align:center">容易开发和实现</td></tr><tr><td style="text-align:center">部署</td><td style="text-align:center">不经常且容易部署</td><td style="text-align:center">经常发布，部署复杂</td></tr><tr><td style="text-align:center">隔离性</td><td style="text-align:center">故障影响范围大</td><td style="text-align:center">故障影响范围小</td></tr><tr><td style="text-align:center">架构设计</td><td style="text-align:center">难度小</td><td style="text-align:center">难度级数增加</td></tr><tr><td style="text-align:center">系统性能</td><td style="text-align:center">响应时间快，吞吐量小</td><td style="text-align:center">响应时间慢，吞吐</td></tr><tr><td style="text-align:center">系统运维</td><td style="text-align:center">运维简单</td><td style="text-align:center">运维复杂</td></tr><tr><td style="text-align:center">技术</td><td style="text-align:center">技术单且封闭</td><td style="text-align:center">技术多样且开放</td></tr><tr><td style="text-align:center">测试和查错</td><td style="text-align:center">简单</td><td style="text-align:center">复杂</td></tr><tr><td style="text-align:center">系统扩展性</td><td style="text-align:center">扩展性很差</td><td style="text-align:center">扩展性很好</td></tr><tr><td style="text-align:center">系统管理</td><td style="text-align:center">重点在于开发成本</td><td style="text-align:center">重点在于服务治理和调</td></tr></tbody></table><h3 id="3-2微服务与-SOA-的区别">3.2微服务与 SOA 的区别</h3><p>面向服务的架构（ SOA ）是 个组件模型，它将应用程序的不同功能单元（称为服务〉通 过这些服务之间定义良好的接口和契约联系起来 接口是采用中立的方式进行定义的，它应该 独立于实现服务的硬件平台、操作系统和编程语言 这使得构建在各种各样系统中的服务可以 种统 和通用的方式进行交互。 都是做服务化，那么微服务与 SOA 的异同有哪些呢？</p><p><strong>相同点</strong></p><ul><li>需要 Registry ，实现动态的服务注册发现机制。</li><li>需要考虑分布式下面的事务 致性， CAP 原则下，两段式提交不能保证性能，事务补 偿机制需要考虑。</li><li>同步调用还是异步消息传递，如何保证消息可靠性？ SOA ESB 来集成所有的消息 都需要统 Gateway 来汇聚、编排接口，实现统 认证机制，对外提供 APP 使用的 RESTful 接口 。</li><li>同样要关注如何再分布式下定位系统问题，如何做日志跟踪？就像电信领域做了十几 年的信令跟踪的功能。</li></ul><p><strong>差异点</strong></p><ul><li>是持续集成、持续部署？对于 CI CDC 集成、持 部署〉，这本身和敏捷、 DevOps 是交织在 起的，所以更倾向于软件工程的领域而不是微服务技术本身。</li><li>使用不同的通信协议是不是区别？微服务的标杆通信协议是阻STful ，而传统的 SOA 般是 SOAP ，不过目前来说采用轻 级的 RPC 框架 Dubbo Thri武、 ）非常 多，在 pring Cloud 中也有 Feign 框架将标准阻ST削转为代码的 API 这种仿即 行为，这些通信协议不应该是区分微服务架构和 SOA 的核心 差别。</li><li>是流行的 于容器的框架还是虚拟机为 Docker 虚拟机和物理机都是架构实现的 种方式，不是核心区别。</li></ul><p>​         SOA 和微服务的 个主要不同点就是自动化程度上的不同 大部分的 SOA 实现只达到服 务级别的抽象，而微服务达到了对实现和运行环境的抽象级别</p><p>​         在一个规范的微服务中，每个微服务应该被构建成胖 JAR (fat JAR ），其中内置了所有的 依赖，然后作为 个单独的 Java 进程存在。</p><h2 id="4-微服务架构的优缺点">4.微服务架构的优缺点</h2><p>微服务的优点和缺点（或者说挑战）一样明显。<br><strong>优点</strong></p><ul><li>开发简单 每个服务完成独立的功能；</li><li>技术技灵活：可以选择不同的语言完成不同的服务，发挥各种语言的最大优势；</li><li>服务独立无依赖：每个服务都可以单独部署， 个服务出现问题不会导致整个系统瘫痪；</li><li>独立按需扩展： 应对高并发与大流量：</li><li>可用性高 当其中 个点出现问题时，能够及时切换，不影响业务的正常运行；</li><li>复杂应用解辑为小而众的服务 拆分可以基于一定的原则，将耗时的应用解藕；</li><li>各服务精而专：也就是我们常说的专人干专事，映射到微服务中就是专服务干专事；</li><li>服务间通信通过 API 完成：选择轻 API 通信。</li></ul><p><strong>缺点（挑战）</strong></p><ul><li>多服务运维难度 服务的增加意味着运维的困难，如何有效地管理是一个挑战；</li><li>系统部署依赖、 当业务复杂时，系统之间的精合关系高度稿合，如何高效部署是一个挑战；</li><li>服务间通信成本：包括网络延迟、接口不可用性等，保证服务的高可用性是一个挑战；</li><li>数据一致性：各个服务间如何有效地共享数据，确保相应服务的数据需求一致性是一个挑战：</li><li>系统集成测试 拆分后，原本需要测试的内容成倍地增加，如何高效地降低测试成本是一个挑战；</li><li>重复工作 服务拆分之后，由于信息的不对称导致的重复性工作，如何有效抽象是一个挑战；</li><li>性能监控：原本只需要 个监控的部分，现在需要分开监控，如何快速定位问题是一个挑战：</li><li>沟通成本的成倍增加：服务拆分后，各个服务由单独的人来维护，如何高效地沟通是一个挑战。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微服务 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 微服务 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java使用grpc调用接口获取数据</title>
       <link href="/posts/8b83ceda.html"/>
       <url>/posts/8b83ceda.html</url>
